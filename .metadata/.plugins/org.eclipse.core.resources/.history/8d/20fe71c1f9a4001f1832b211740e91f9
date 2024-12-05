@@ -1,0 +1,11 @@
+int main() {
+    Product product("Laptop", 1000.0);
+    double taxRate = 0.2; // 20%
+    double tax = TaxCalculator::calculateTax(product, taxRate);
+
+    std::cout << "Product: " << product.getName() 
+              << ", Price: " << product.getPrice() 
+              << ", Tax: " << tax << std::endl;
+
+    return 0;
+}

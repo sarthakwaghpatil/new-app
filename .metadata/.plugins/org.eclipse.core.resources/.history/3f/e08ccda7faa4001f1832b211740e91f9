@@ -1,0 +1,6 @@
+class TaxCalculator {
+public:
+    static double calculateTax(const Product& product, double taxRate) {
+        return product.getPrice() * taxRate;
+    }
+};

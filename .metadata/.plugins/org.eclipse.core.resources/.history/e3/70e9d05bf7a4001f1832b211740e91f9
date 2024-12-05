@@ -1,0 +1,5 @@
+package prc;
+
+public class SingletonDemo {
+
+}
